@@ -1,0 +1,79 @@
+body,html{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.imgur.com/E3Kb1aC.jpg);
+    background-size: 100% 100%;
+    min-height: 100vh;
+    overflow: auto;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
+    -moz-box-flex: 1;
+    width: 100%;
+    margin: 0 auto;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+}
+div{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    padding: 0 20px;
+    transform: translateY(calc(-50% - 24px));
+}
+h1{
+    margin: 0 0 36px;
+    text-align: center;
+    min-height: 72px;
+}
+form{
+    max-width: 592px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    min-width: 300px;
+    line-height: 1;
+}
+label{
+    display: none;
+}
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 300px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 28px;
+    outline: none;
+    appearance: none;
+    box-sizing: border-box;
+    border-radius: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding-left: 20px;
+}
+h2{
+    margin: 32px 0 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+}
