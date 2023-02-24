@@ -897,6 +897,54 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-purple-500 {
+  --tw-gradient-from: #a855f7;
+  --tw-gradient-to: rgb(168 85 247 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-lime-600 {
+  --tw-gradient-from: #65a30d;
+  --tw-gradient-to: rgb(101 163 13 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-lime-400 {
+  --tw-gradient-from: #a3e635;
+  --tw-gradient-to: rgb(163 230 53 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-blue-300 {
+  --tw-gradient-from: #93c5fd;
+  --tw-gradient-to: rgb(147 197 253 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-indigo-300 {
+  --tw-gradient-from: #a5b4fc;
+  --tw-gradient-to: rgb(165 180 252 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-indigo-400 {
+  --tw-gradient-from: #818cf8;
+  --tw-gradient-to: rgb(129 140 248 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-indigo-500 {
+  --tw-gradient-from: #6366f1;
+  --tw-gradient-to: rgb(99 102 241 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-white {
+  --tw-gradient-from: #fff;
+  --tw-gradient-to: rgb(255 255 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-green-300 {
   --tw-gradient-to: rgb(134 239 172 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), #86efac, var(--tw-gradient-to);
@@ -948,6 +996,30 @@ video {
 
 .to-zinc-500 {
   --tw-gradient-to: #71717a;
+}
+
+.to-red-500 {
+  --tw-gradient-to: #ef4444;
+}
+
+.to-yellow-700 {
+  --tw-gradient-to: #a16207;
+}
+
+.to-lime-300 {
+  --tw-gradient-to: #bef264;
+}
+
+.to-lime-400 {
+  --tw-gradient-to: #a3e635;
+}
+
+.to-lime-200 {
+  --tw-gradient-to: #d9f99d;
+}
+
+.to-stone-600 {
+  --tw-gradient-to: #57534e;
 }
 
 .bg-100 {
@@ -1237,6 +1309,16 @@ video {
 
 .shadow-stone-400 {
   --tw-shadow-color: #a8a29e;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-indigo-400 {
+  --tw-shadow-color: #818cf8;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-red-400 {
+  --tw-shadow-color: #f87171;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
