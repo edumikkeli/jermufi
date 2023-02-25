@@ -640,6 +640,10 @@ video {
   width: auto;
 }
 
+.min-w-full {
+  min-width: 100%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
