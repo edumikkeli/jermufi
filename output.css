@@ -591,6 +591,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -902,6 +906,14 @@ video {
   --tw-gradient-to: #71717a;
 }
 
+.to-slate-600 {
+  --tw-gradient-to: #475569;
+}
+
+.to-zinc-600 {
+  --tw-gradient-to: #52525b;
+}
+
 .bg-100 {
   background-size: 100% 100%;
 }
@@ -1022,6 +1034,10 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
 }
 
 .text-center {
@@ -1179,6 +1195,16 @@ video {
 
 .shadow-stone-400 {
   --tw-shadow-color: #a8a29e;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-blue-400 {
+  --tw-shadow-color: #60a5fa;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-yellow-400 {
+  --tw-shadow-color: #facc15;
   --tw-shadow: var(--tw-shadow-colored);
 }
 

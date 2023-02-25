@@ -9,4 +9,8 @@ function teenimi() {
     const random3 = Math.floor(Math.random() * miestenetunimet.length);
     const random4 = Math.floor(Math.random() * sukunimet.length);
     document.getElementById("nimi").innerHTML = miestenetunimet[random1] + " " + miestenetunimet[random2] + " " + miestenetunimet[random3] + " " + sukunimet[random4];
+    const para = document.createElement("p");
+    para.innerHTML = miestenetunimet[random1] + " " + miestenetunimet[random2] + " " + miestenetunimet[random3] + " " + sukunimet[random4];
+    para.className = 'text-center';
+    document.getElementById("historia").appendChild(para);
 }
