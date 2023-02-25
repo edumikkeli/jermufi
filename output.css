@@ -615,6 +615,10 @@ video {
   height: 100vh;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-3\/4 {
   width: 75%;
 }
