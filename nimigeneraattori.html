@@ -24,12 +24,17 @@
         <h3 class="font-semibold text-center text-xl">kuten vaikka</h3>
         <h3 class="font-semibold text-center text-xl" id="nimi">Pirkka-Petteri Jaakko Heinäheimo</h3>
     </div>
-    <div class="rounded-2xl bg-gradient-to-bl from-white to-zinc-600 p-5 pb-10 m-10 shadow-xl shadow-blue-400">
+    <div class="rounded-2xl bg-gradient-to-bl from-white to-zinc-600 p-5 m-10 shadow-xl shadow-blue-400">
         <h1 class="text-center pt-40 font-extrabold text-5xl sm:text-6xl md:text-7xl">asetukset</h1>
-        <form class="w-full text-center mt-10 text-lg">
-            <input type="radio" name="sukupuoli" value="mies" class="mx-1"> Mies
-            <input type="radio" name="sukupuoli" value="nainen" class="mx-1"> Nainen
-          </form>
+        <form class="w-full text-center mt-10 text-lg mb-16">
+            <input type="radio" name="sukupuoli" value="mies" class="mx-1 my-2"> Mies
+            <input type="radio" name="sukupuoli" value="nainen" class="mx-1 my-2"> Nainen
+            <br>
+            <input type="checkbox" id="suosio" class="mx-1 my-2" checked> Generoi uudella tyylillä<sup><sub><sup>*</sup></sub></sup>
+            <br>
+            <input type="checkbox" id="niilo" class="mx-1 my-2"> niilo
+        </form>
+        <p class="text-sm text-transparent bg-gradient-to-r bg-clip-text from-gray-600 to-gray-400 hover:text-black transition-all">*nimet painotettu suosion mukaan ja enismmäinen etunimi generoitu erikseen</p>
     </div>
     <div class="rounded-2xl bg-gradient-to-bl from-white to-slate-600 p-5 pb-32 m-10 shadow-xl shadow-yellow-400" id="historia">
         <h1 class="text-center pt-40 font-extrabold text-5xl sm:text-6xl md:text-7xl mb-10">historia</h1>
